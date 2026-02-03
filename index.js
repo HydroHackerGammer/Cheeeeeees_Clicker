@@ -1,14 +1,11 @@
 let cheese = 0;
 const UserinterfaceCounter = document.getElementById("counter");
 
-function updateUserinterface(){
-    UserinterfaceCounter.innerHTML = cheese;
+function updateUserinterface() {
+    UserinterfaceCounter.textContent = cheese;
 }
 
-function click(){
+function cheeseClick() {
     cheese += 1;
     updateUserinterface();
 }
-
-
-
