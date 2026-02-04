@@ -35,8 +35,8 @@ body {
     background: none;
     border: none;
     position: fixed;
-    bottom: 50px;
-    right: 0%;
+    bottom: 0;
+    right: 0;
 }
 
 .shop-button img {
