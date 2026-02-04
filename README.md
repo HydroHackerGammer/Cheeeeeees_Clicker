@@ -1,2 +1,2 @@
-# Cheeeeeees_Clicker
-Cheeeeees
+# Cheese Clicker
+A Clicker Game about Cheese.
