@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+    background-image: url(assets/background.png);
+    background-size: 570px;
+}
+
+.button {
+    background: none;
+    border: none;
+    position: fixed;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.button img {
+    width: 600px;
+}
+
+.counter {
+    font-size: 100px;
+    color: #993d05;
+    position: fixed;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: fantasy;
+}
+
+.shop-button {
+    background: none;
+    border: none;
+    position: fixed;
+    bottom: 50px;
+    right: 0%;
+}
+
+.shop-button img {
+    width: 400px;
+}

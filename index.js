@@ -9,3 +9,4 @@ function cheeseClick() {
     cheese += 1;
     updateUserinterface();
 }
+
