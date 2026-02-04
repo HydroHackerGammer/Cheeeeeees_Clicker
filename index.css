@@ -18,11 +18,12 @@ body {
 }
 
 .button img {
-    width: 600px;
+    width: 40vw;
+    max-width: 600px;
 }
 
 .counter {
-    font-size: 100px;
+    font-size: 90px;
     color: #993d05;
     position: fixed;
     top: 30%;
