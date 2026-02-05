@@ -46,7 +46,6 @@ body {
 }
 
 .shop {
-    display: none;
     background-image: url("./assets/shop-background.png");
     pointer-events: none;
     opacity: 0;
