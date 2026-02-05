@@ -47,7 +47,7 @@ body {
 
 .shop {
     display: none;
-    background-image: ;
+    background-image: url("./assets/shop-background.png");
     width: 80vw;
     height: 80vh;
     position: fixed;
@@ -55,6 +55,7 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     border-radius: 16px;
+    box-shadow: 0 0 50px black;
 }
 
 .shop.open {
@@ -70,6 +71,9 @@ body {
     background: none;
     border: none;
     font-size: 50px;
+    font-family: sans-serif;
+    font-weight: 700;
+    color: darkslategrey;
 }
 
 @media (max-width: 1200px) {
@@ -79,5 +83,10 @@ body {
     .shop-button img {
         width: 200px;
     }
+    .shop {
+        width: 90vw;
+    }
 }
+
+
 
