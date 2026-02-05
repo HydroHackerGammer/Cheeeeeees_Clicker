@@ -46,8 +46,10 @@ body {
 }
 
 .shop {
-    display: none;
-    background-image: ;
+    pointer-events: none;
+    opacity: 0;
+    transition: all 0.3s;
+    background-image: url("assets/shop-background.png");
     width: 80vw;
     height: 80vh;
     position: fixed;
@@ -58,7 +60,8 @@ body {
 }
 
 .shop.open {
-    display: inline;
+    opacity: 1;
+    pointer-events: all;
 }
 
 .shop-close {
